@@ -16,7 +16,7 @@
   </head>
   <body class="body">
     <!-- #region header -->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="nav-header">
           <a href="./index.html" class="header-logo"
@@ -48,20 +48,87 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="open-btn-header">
+          <svg class="open-btn-solid" width="24" height="24">
+            <use href="./images/header-btn.svg#icon-header-btn"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
-    <!-- #endregion header -->
-    <!-- #region main -->
-    <!-- <main class="main"> -->
-    <!-- #region hero -->
-    <!-- <section class="hero">
-        <div class="container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="btn" type="button">Order Service</button>
+      <div class="mob-menu">
+        <button type="button" class="close-mob-menu">
+          <svg class="close-btn-mob" width="8" height="8">
+            <use href="./images/close-icon.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <div class="con-nav">
+          <nav class="nav-header-mob">
+            <ul class="nav-menu-mob">
+              <li class="nav-mob-menu-list">
+                <a class="list-text-mob" href="./index.html">Studio</a>
+              </li>
+              <li class="nav-mob-menu-list">
+                <a class="list-text-mob" href="">Portfolio</a>
+              </li>
+              <li class="nav-mob-menu-list">
+                <a class="list-text-mob" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-      </section> -->
-    <!-- #endregion hero -->
-    <!-- #region experience -->
+        <div class="address-icons">
+          <address class="address-mob-nav">
+            <ul class="menu-mob-address">
+              <li class="contacts-mob-list">
+                <a class="contacts-text-mob" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="contacts-mob-list">
+                <a class="contacts-text-mob" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="list-icons-mob-menu">
+            <li class="li-icons-mob">
+              <a class="mob-link-icons" href="#icon-instagram">
+                <svg class="mob-icons" width="24" height="24">
+                  <use href="./images/icons-for-team.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="li-icons-mob">
+              <a class="mob-link-icons" href="#icon-twitter">
+                <svg class="mob-icons" width="24" height="24">
+                  <use href="./images/icons-for-team.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="li-icons-mob">
+              <a class="mob-link-icons" href="#icon-facebook">
+                <svg class="mob-icons" width="24" height="24">
+                  <use href="./images/icons-for-team.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="li-icons-mob">
+              <a class="mob-link-icons" href="#icon-linkedin">
+                <svg class="mob-icons" width="24" height="24">
+                  <use href="./images/icons-for-team.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="btn" type="button">Order Service</button>
+      </div>
+    </section>
     <section class="experience">
       <div class="container">
         <h2 class="title-experience visually-hidden">Information</h2>
@@ -117,8 +184,6 @@
         </ul>
       </div>
     </section>
-    <!-- #endregion experience -->
-    <!-- #region team -->
     <section class="team">
       <div class="container container-team">
         <h2 class="title-team">Our Team</h2>
@@ -318,8 +383,6 @@
         </ul>
       </div>
     </section>
-    <!-- #endregion team -->
-    <!-- #region portfolio -->
     <section class="portfolio">
       <div class="container">
         <h2 class="title-portfolio">Our Portfolio</h2>
@@ -435,10 +498,6 @@
         </ul>
       </div>
     </section>
-    <!-- #endregion portfolio -->
-    <!-- </main> -->
-    <!-- #endregion main -->
-    <!-- #region footer -->
     <footer class="footer">
       <div class="container footer-container">
         <div class="container-logo">
@@ -507,7 +566,7 @@
     </footer>
     <!-- #endregion footer -->
     <!-- #region modal -->
-    <!-- <div class="modal-overlay">
+    <div class="modal-overlay">
       <div class="modal">
         <button class="btn-close" type="button">
           <svg class="close-icon" width="8" height="8">
@@ -587,14 +646,15 @@
                   <use href="./images/icon-checkbox.svg#icon-Vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="link-checkbox" href="#">Privacy Policy</a>
+              <span>
+                I accept the terms and conditions of the
+                <a class="link-checkbox" href="#">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
-    <!-- #endregion mpdal -->
+    </div>
   </body>
 </html>
